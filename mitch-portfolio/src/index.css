@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+/* ==== CUSTOM STYLES ==== */
+.header-overlay {
+  padding: 1em;
+  box-shadow: 0 0 600px 5px #007546 inset, 2px 2px 12px 1px #262626;
+  color:#fff;
+  text-align:center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-overlay h1 {
+  margin-right: 15px;
+}
+
+
+
+/* ==== MEDIA QUERIES ==== */

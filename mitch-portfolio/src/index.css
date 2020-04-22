@@ -37,7 +37,7 @@ h3 { font-size: 1.4rem; }
 }
 
 .about-block {
-  padding:2% 5%;
+  padding:3% 5%;
 }
 
 .header-overlay {
@@ -46,8 +46,6 @@ h3 { font-size: 1.4rem; }
   color:#fff;
   text-align:center;
 }
-
-
 
 
 
@@ -65,6 +63,11 @@ h3 { font-size: 1.4rem; }
     .figure {
       display:flex;
       flex-direction: column;
+      padding: 25px;
+    }
+
+    .about-block .flex-child:first-of-type {
+      flex-grow:2;
     }
 }
 

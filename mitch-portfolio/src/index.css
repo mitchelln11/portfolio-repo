@@ -47,6 +47,30 @@ h3 { font-size: 1.4rem; }
   text-align:center;
 }
 
+.footer-block {
+  background-color: #005935;
+  color: #fff;
+  padding: 15px;
+}
+
+.footer-block ul {
+  padding:0;
+  margin:0;
+  text-align: center;
+}
+
+.footer-block ul li {
+  margin: 0 10px;
+}
+
+.footer-block a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-block a:hover {
+  color: #000;
+}
 
 
 /* ==== MEDIA QUERIES ==== */
@@ -68,6 +92,14 @@ h3 { font-size: 1.4rem; }
 
     .about-block .flex-child:first-of-type {
       flex-grow:2;
+    }
+
+    
+
+    .footer-block ul li {
+      display:inline-block;
+      list-style-type: none;
+      padding:0;
     }
 }
 

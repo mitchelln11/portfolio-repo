@@ -47,6 +47,16 @@
       },
       {
         "id": 10,
+        "title": "Regex",
+        "extension": null
+      },
+      {
+        "id": 11,
+        "title": "JSON-Server",
+        "extension": null
+      },
+      {
+        "id": 12,
         "title": "C#",
         "extension": "MVC w EF"
       }

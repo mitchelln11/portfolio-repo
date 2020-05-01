@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+// https://www.youtube.com/watch?v=Law7wfdg_ls 
+
 function Languages() {
     useEffect(() => {
         fetchItems();
@@ -12,8 +14,8 @@ function Languages() {
             `http://localhost:3001/languages`
         );
 
-        const items = await data.json();
-        setItems(items);
+        const items = await data.json(); // Parse into JSON format
+        setItems(items); // Return items object so we can reference children later
     };
 
     return (

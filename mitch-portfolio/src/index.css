@@ -58,6 +58,8 @@ h3 { font-size: 1.4rem; }
 
 .languages-block h2 {
   text-align:center;
+  margin: 0;
+  padding: 20px 0;
 }
 
 .languages-block .list-post-content {
@@ -67,6 +69,16 @@ h3 { font-size: 1.4rem; }
 
 .badge-primary {
   float: right;
+}
+
+.languages {
+  background-color: #003F26;
+  color:#fef;
+}
+
+.logo-parent img {
+  max-width:560px;
+  padding:10%;
 }
 
 .footer-block {

@@ -1,0 +1,10 @@
+{
+    "learn": [
+      {
+        "id": 1,
+        "title": "Angular JS",
+        "source": "./images/logo-angular-js.png",
+        "extension": null
+      }
+    ]
+}

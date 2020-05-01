@@ -34,6 +34,7 @@ h3 { font-size: 1.4rem; }
 
 .flex-child {
   flex:1;
+  width: 100%;
 }
 
 .header-overlay {
@@ -78,7 +79,13 @@ h3 { font-size: 1.4rem; }
 
 .logo-parent img {
   max-width:560px;
-  padding:10%;
+  padding:40px 40px 0;
+  width: 100%;
+}
+
+.logo-parent h4 {
+  padding:20px 0;
+  margin:0;
 }
 
 .footer-block {
@@ -96,6 +103,7 @@ h3 { font-size: 1.4rem; }
 
 .footer-block ul li {
   margin: 0 10px;
+  list-style-type:none;
 }
 
 .footer-block a {
@@ -129,11 +137,8 @@ h3 { font-size: 1.4rem; }
       flex-grow:2;
     }
 
-    
-
     .footer-block ul li {
       display:inline-block;
-      list-style-type: none;
       padding:0;
     }
 }
@@ -145,5 +150,14 @@ h3 { font-size: 1.4rem; }
     flex-direction:row;
     align-items: center;
     justify-content: center;
+  }
+
+  .languages-block .flex-container {
+    align-items: baseline;
+  }
+
+  .logo-parent img {
+    max-width:560px;
+    padding:40px 40px 0;
   }
 }

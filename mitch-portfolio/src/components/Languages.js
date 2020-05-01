@@ -29,6 +29,10 @@ function Languages() {
                     </li>
                 )}
             </ul>
+            <div className="list-post-content">
+                <p>These are the languages or tools that I am comfortable with. I may not know every single aspect of all of these, but if a developer says they do, they are likely lying to you.</p>
+                <p>This list is being pulled with the native fetch function and grabbing a local JSON file. I am simulating that the JSON file is on a separate server with JSON-Server.</p>
+            </div>
         </div>
     )
 }

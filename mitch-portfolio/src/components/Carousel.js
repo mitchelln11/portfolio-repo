@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Carousel() {
 
-    const [slides] = useState([
+    const [slides, setSlides] = useState([
         {
             source: "../images/half-moon-pier.jpg",
             title: "Half Moon Pier"
@@ -22,11 +22,19 @@ function Carousel() {
 
     // Index value moves up, but doesn't update the image. Why???
     const arrowRightClick = () => {
+        console.log(currentSlide);
         currentSlide = slides[indexValue + 1];
         console.log(currentSlide);
     }
 
-
+    // useEffect(() => {
+    //     function changeSliderImage(currentSlide) {
+    //         setSlides(currentSlide.setSlides);
+    //     }
+    //     return () => {
+    //     <img src={currentSlide.source} alt={currentSlide.title} title={currentSlide.title} className="slider-img" />
+    // }
+    // }, [])
 
     return (
         <div className="carousel-block">

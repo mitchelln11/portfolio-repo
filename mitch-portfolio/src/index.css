@@ -87,7 +87,6 @@ h3 { font-size: 1.4rem; }
 } */
 
 .arrows {
-  cursor: pointer;
   position: absolute;
   z-index:2;
   font-size: 3rem;
@@ -102,9 +101,11 @@ h3 { font-size: 1.4rem; }
 }
 
 #arrow-left {
+  cursor: pointer;
   margin-left:30px;
 }
 #arrow-right {
+  cursor: pointer;
   margin-right:30px;
 }
 

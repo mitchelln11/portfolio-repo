@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 function Carousel() {
 
-    const [slides, setSlides] = useState([
+    const [slides] = useState([
         {
             source: "../images/half-moon-pier.jpg",
             title: "Half Moon Pier"
@@ -17,24 +17,22 @@ function Carousel() {
         }
     ]);
 
-    let indexValue = 0; // Initial slide index value
-    let currentSlide = slides[indexValue]; // variable index value we can reference later
-
-    // Index value moves up, but doesn't update the image. Why???
+    // SET CAROUSEL DEFAULTS
+    let [currentPosition, setCurrentPosition] = useState(0); // Initial slide index value
+    let currentSlide = slides[currentPosition]; // variable index value we can reference later
+    
     const arrowRightClick = () => {
-        console.log(currentSlide);
-        currentSlide = slides[indexValue + 1];
-        console.log(currentSlide);
+        currentPosition !== slides.length -1 ? // Check index length
+        setCurrentPosition(currentPosition + 1) : setCurrentPosition(currentPosition = 0);
+        currentSlide = slides[currentPosition];
     }
 
-    // useEffect(() => {
-    //     function changeSliderImage(currentSlide) {
-    //         setSlides(currentSlide.setSlides);
-    //     }
-    //     return () => {
-    //     <img src={currentSlide.source} alt={currentSlide.title} title={currentSlide.title} className="slider-img" />
-    // }
-    // }, [])
+    const arrowLeftClick = () => {
+        currentPosition !== 0 ? // Check index length
+        setCurrentPosition(currentPosition - 1) : setCurrentPosition(currentPosition = slides.length - 1);
+        console.log(currentPosition);
+        currentSlide = slides[currentPosition];
+    }
 
     return (
         <div className="carousel-block">
@@ -43,7 +41,7 @@ function Carousel() {
                     <div className="slide">
                         <img src={currentSlide.source} alt={currentSlide.title} title={currentSlide.title} className="slider-img" />
                         <div className="arrows">
-                            <div id="arrow-left"><i className="fas fa-arrow-alt-circle-left"></i></div>
+                            <div id="arrow-left" onClick={arrowLeftClick}><i className="fas fa-arrow-alt-circle-left"></i></div>
                             <div id="arrow-right" onClick={arrowRightClick}><i className="fas fa-arrow-alt-circle-right"></i></div>
                         </div>
                     </div>

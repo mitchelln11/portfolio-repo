@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Carousel() {
+const Carousel = () => {
 
     const [slides] = useState([
         {
@@ -30,7 +30,6 @@ function Carousel() {
     const arrowLeftClick = () => {
         currentPosition !== 0 ? // Check index length
         setCurrentPosition(currentPosition - 1) : setCurrentPosition(currentPosition = slides.length - 1);
-        console.log(currentPosition);
         currentSlide = slides[currentPosition];
     }
 

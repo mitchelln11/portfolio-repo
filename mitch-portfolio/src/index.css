@@ -15,13 +15,6 @@ code {
 
 
 /* ==== CUSTOM STYLES ==== */
-/* body, #slider {
-  margin:0;
-  padding:0;
-  width:100%;
-  overflow-x:hidden;
-} */
-
 h1 { font-size:2rem; }
 h2 { font-size: 1.6rem; }
 h3 { font-size: 1.4rem; }
@@ -62,29 +55,9 @@ h3 { font-size: 1.4rem; }
   width:100%;
 }
 
-/* .slide {
-  background-size:cover;
-  background-position: center;
-  background-repeat: no-repeat;
-} */
-
 .slide img {
   position: relative;
 }
-
-/* .slide-content {
-  position: absolute;
-  z-index: 2;
-  color:#fff;
-}
-
-.slide-content span {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-} */
 
 .arrows {
   position: absolute;
@@ -145,6 +118,11 @@ h3 { font-size: 1.4rem; }
 .languages {
   background-color: #003F26;
   color:#fef;
+}
+
+.img-container {
+  background-color: #444d49;
+  padding-bottom: 25px;
 }
 
 .logo-parent img {

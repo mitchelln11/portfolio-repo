@@ -27,12 +27,12 @@
       },
       {
         "id": 6,
-        "title": "TypeScript",
+        "title": "Vue JS",
         "source": "./images/logo-vue-js.png"
       },
       {
         "id": 7,
-        "title": "Vue JS",
+        "title": "TypeScript",
         "source": "./images/logo-typescript-js.png"
       }
     ]

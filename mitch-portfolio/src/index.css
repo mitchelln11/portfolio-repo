@@ -95,8 +95,14 @@ h3 { font-size: 1.4rem; }
   position: relative;
 }
 
+.figure {
+  display:flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
 #spaceStation-block {
-  background: #444;
+  background: #1D294D;
   padding:25px;
   color:#fff;
   position: relative;
@@ -112,6 +118,7 @@ h3 { font-size: 1.4rem; }
 #spaceStation-block .photo-credit small {
   color: #737373;
   padding:5px;
+  display: none;
 }
 
 .coordinates {
@@ -120,6 +127,7 @@ h3 { font-size: 1.4rem; }
 
 .coordinates strong {
   font-size: 2rem;
+  display: block;
 }
 
 #languages-block {
@@ -204,11 +212,6 @@ h3 { font-size: 1.4rem; }
     .header-overlay h1 {
       margin-right: 15px;
     }
-    .figure {
-      display:flex;
-      flex-direction: column;
-      padding: 25px;
-    }
 
     #about-block .flex-child:first-of-type {
       flex-grow:2;
@@ -216,10 +219,18 @@ h3 { font-size: 1.4rem; }
 
     #spaceStation-block {
       background-image: url("/images/outer-space.jpg");
-      box-shadow: 0 0 100px 5px #000 inset;
+      box-shadow: 0 0 100px 50px #000 inset;
       background-attachment: fixed;
       background-size: cover;
       background-repeat: no-repeat;
+    }
+
+    #spaceStation-block .photo-credit small {
+      display: block;
+    }
+
+    .coordinates strong {
+      display: inline-block;
     }
 
     #footer-block ul li {

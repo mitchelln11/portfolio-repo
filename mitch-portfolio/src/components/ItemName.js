@@ -35,10 +35,8 @@ const ItemName = () => {
     }
 
     return (
-        <span key={currentLogo.id}>
-            <div className="img-container">
-                <img src={currentLogo.source} alt={currentLogo.title} title={currentLogo.title} className="img-fluid mx-auto d-block" />
-            </div>
+        <span key={currentLogo.id}>            
+            <img src={currentLogo.source} alt={currentLogo.title} title={currentLogo.title} className="img-fluid mx-auto d-block" />
             <h4 className="text-center">{ currentLogo.title }</h4>
         </span>
     );

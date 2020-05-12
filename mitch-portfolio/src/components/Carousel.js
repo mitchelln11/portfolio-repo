@@ -34,7 +34,7 @@ const Carousel = () => {
     }
 
     return (
-        <div className="carousel-block">
+        <div id="carousel-block">
             <div className="flex-container">
                 <div id="slider">
                     <div className="slide">

@@ -2,7 +2,7 @@ import React from 'react';
 
 const aboutBlock = () => {
     return (
-        <div className="about-block">
+        <div id="about-block">
             <div className="flex-container">
                 <div className="flex-child">
                     <h3>About Me</h3>

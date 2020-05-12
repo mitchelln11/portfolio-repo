@@ -47,11 +47,11 @@ h3 { font-size: 1.4rem; }
   z-index: 2;
 }
 
-.carousel-block {
+#carousel-block {
   position: relative;
 }
 
-.carousel-block img {
+#carousel-block img {
   width:100%;
 }
 
@@ -90,23 +90,50 @@ h3 { font-size: 1.4rem; }
   color: #fff;
 }
 
-.about-block {
+#about-block {
   padding: 3% 5%;
   position: relative;
 }
 
-.languages-block {
+#spaceStation-block {
+  background: #444;
+  padding:25px;
+  color:#fff;
+  position: relative;
+  text-align: center;
+}
+
+#spaceStation-block .photo-credit {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#spaceStation-block .photo-credit small {
+  color: #737373;
+  padding:5px;
+}
+
+.coordinates {
+  display: block;
+}
+
+.coordinates strong {
+  font-size: 2rem;
+}
+
+#languages-block {
   padding: 0;
   position: relative;
 }
 
-.languages-block h2 {
+#languages-block h2 {
   text-align:center;
   margin: 0;
   padding: 20px 0;
 }
 
-.languages-block .list-post-content {
+#languages-block .list-post-content {
   margin:0;
   padding:2em;
 }
@@ -122,7 +149,8 @@ h3 { font-size: 1.4rem; }
 
 .img-container {
   background-color: #444d49;
-  padding-bottom: 25px;
+  padding-bottom: 2px;
+  height:525px;
 }
 
 .logo-parent img {
@@ -134,33 +162,33 @@ h3 { font-size: 1.4rem; }
 .logo-parent h4 {
   padding:20px 0;
   margin:0;
-  background: #003F26;
+  background: #42594f;
 }
 
-.footer-block {
+#footer-block {
   background-color: #005935;
   color: #fff;
   padding: 15px;
   position: relative;
 }
 
-.footer-block ul {
+#footer-block ul {
   padding:0;
   margin:0;
   text-align: center;
 }
 
-.footer-block ul li {
+#footer-block ul li {
   margin: 0 10px;
   list-style-type:none;
 }
 
-.footer-block a {
+#footer-block a {
   color: #fff;
   text-decoration: none;
 }
 
-.footer-block a:hover {
+#footer-block a:hover {
   color: #000;
 }
 
@@ -182,11 +210,19 @@ h3 { font-size: 1.4rem; }
       padding: 25px;
     }
 
-    .about-block .flex-child:first-of-type {
+    #about-block .flex-child:first-of-type {
       flex-grow:2;
     }
 
-    .footer-block ul li {
+    #spaceStation-block {
+      background-image: url("/images/outer-space.jpg");
+      box-shadow: 0 0 100px 5px #000 inset;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    #footer-block ul li {
       display:inline-block;
       padding:0;
     }
@@ -201,12 +237,12 @@ h3 { font-size: 1.4rem; }
     justify-content: center;
   }
 
-  .languages-block .flex-container {
+  #languages-block .flex-container {
     align-items: stretch;
   }
 
   .logo-parent img {
     max-width:450px;
-    padding:40px 40px 0;
+    padding:40px 40px 15px;
   }
 }

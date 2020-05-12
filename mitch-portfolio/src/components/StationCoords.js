@@ -18,7 +18,7 @@ const StationCoords = () => {
         }, 5000);
         return () => clearInterval(coordsInterval); // Unmounting???
 
-    }, 5000);
+    }, []);
 
     return (
         <div className="coordinates">

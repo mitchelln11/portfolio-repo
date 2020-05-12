@@ -12,8 +12,6 @@ code {
     monospace;
 }
 
-
-
 /* ==== CUSTOM STYLES ==== */
 h1 { font-size:2rem; }
 h2 { font-size: 1.6rem; }
@@ -158,7 +156,7 @@ h3 { font-size: 1.4rem; }
 .img-container {
   background-color: #444d49;
   padding-bottom: 2px;
-  height:525px;
+  height:495px;
 }
 
 .logo-parent img {
@@ -171,6 +169,22 @@ h3 { font-size: 1.4rem; }
   padding:20px 0;
   margin:0;
   background: #42594f;
+}
+
+#prev-experience {
+  padding: 3% 5%;
+  position: relative;
+  background: #295743;
+  color:#fff;
+}
+
+#prev-experience h2 {
+  background-color: #286149;
+  padding:5px;
+}
+
+#prev-experience p {
+  padding-bottom: 0;
 }
 
 #footer-block {

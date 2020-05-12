@@ -5,6 +5,7 @@ import About from './components/About';
 import SpaceStation from './components/SpaceStation';
 import Languages from './components/Languages';
 import ToLearn from './components/ToLearn';
+import PrevExperience from './components/PrevExperience';
 import Footer from './components/Footer';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
               <ToLearn />
             </div>
         </div>
+        <PrevExperience />
         <Footer />
     </div>
   );

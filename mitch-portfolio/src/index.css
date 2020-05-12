@@ -40,7 +40,7 @@ h3 { font-size: 1.4rem; }
   box-shadow: 0 0 600px 5px #007546 inset, 2px 2px 12px 1px #262626;
   color:#fff;
   text-align: center;
-  position: absolute;
+  position: relative;
   width: 100%;
   z-index: 2;
 }
@@ -156,7 +156,7 @@ h3 { font-size: 1.4rem; }
 .img-container {
   background-color: #444d49;
   padding-bottom: 2px;
-  height:495px;
+  height:auto;
 }
 
 .logo-parent img {
@@ -222,7 +222,9 @@ h3 { font-size: 1.4rem; }
       flex-direction: row;
       align-items: center;
       justify-content: center;
+      position: absolute;
     }
+
     .header-overlay h1 {
       margin-right: 15px;
     }
@@ -269,5 +271,9 @@ h3 { font-size: 1.4rem; }
   .logo-parent img {
     max-width:450px;
     padding:40px 40px 15px;
+  }
+
+  .img-container {
+    height:495px;
   }
 }

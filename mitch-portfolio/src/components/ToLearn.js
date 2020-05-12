@@ -5,7 +5,7 @@ function ToLearn() {
     
     return (
         <div className="flex-child languages">
-            <h2>Languages to Learn</h2>
+            <h2>Languages/Tools to Learn</h2>
             <div className="logo-parent">
                 <div className="img-container">
                     <ItemName />

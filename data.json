@@ -1,0 +1,64 @@
+{
+    "languages": [
+      {
+        "id": 1,
+        "title": "HTML5",
+        "extension": null
+      },
+      {
+        "id": 2,
+        "title": "CSS3",
+        "extension": null
+      },
+      {
+        "id": 3,
+        "title": "JavaScript",
+        "extension": null
+      },
+      {
+        "id": 4,
+        "title": "React",
+        "extension": "Classes"
+      },
+      {
+        "id": 5,
+        "title": "React",
+        "extension": "Hooks"
+      },
+      {
+        "id": 6,
+        "title": "Git",
+        "extension": null
+      },
+      {
+        "id": 7,
+        "title": "Rest APIs",
+        "extension": null
+      },
+      {
+        "id": 8,
+        "title": "AJAX",
+        "extension": null
+      },
+      {
+        "id": 9,
+        "title": "Axios",
+        "extension": null
+      },
+      {
+        "id": 10,
+        "title": "Regex",
+        "extension": null
+      },
+      {
+        "id": 11,
+        "title": "JSON-Server",
+        "extension": null
+      },
+      {
+        "id": 12,
+        "title": "C#",
+        "extension": "MVC w EF"
+      }
+    ]
+}

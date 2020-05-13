@@ -1,0 +1,39 @@
+{
+    "learn": [
+      {
+        "id": 1,
+        "title": "Angular JS",
+        "source": "./images/logo-angular-js.png"
+      },
+      {
+        "id": 2,
+        "title": "Firebase",
+        "source": "./images/logo-firebase.png"
+      },
+      {
+        "id": 3,
+        "title": "GraphQL",
+        "source": "./images/logo-graphql.png"
+      },
+      {
+        "id": 4,
+        "title": "MongoDB",
+        "source": "./images/logo-mongo-dbpng.png"
+      },
+      {
+        "id": 5,
+        "title": "Node JS",
+        "source": "./images/logo-node-js.png"
+      },
+      {
+        "id": 6,
+        "title": "Vue JS",
+        "source": "./images/logo-vue-js.png"
+      },
+      {
+        "id": 7,
+        "title": "TypeScript",
+        "source": "./images/logo-typescript-js.png"
+      }
+    ]
+}

@@ -21,6 +21,7 @@ function App() {
               <ToLearn />
             </div>
         </div>
+        
         <PrevExperience />
         <Footer />
     </div>

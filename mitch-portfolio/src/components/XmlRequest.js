@@ -4,8 +4,11 @@ const XmlCall = () => {
 
     // Make API call
     useEffect(() => {
+        const methodType = "";
+        const requestLink = "";
+
         const xhr = new XMLHttpRequest();
-        xhr.open();
+        xhr.open(methodType, requestLink);
         // setItems(items);
         // fetchItems();
     }, []);

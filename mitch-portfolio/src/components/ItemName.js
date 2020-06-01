@@ -12,7 +12,7 @@ const ItemName = () => {
     useEffect(() => {
         const fetchItems = async () => {
             // const url = "http://localhost:3002/learn";
-            const url = "https://hardcore-kepler-c0d4c5.netlify.app/learn";
+            const url = "https://a-walk-in-the-park.netlify.app/learn";
             const response = await fetch(url);
             items = await response.json();
             setItems(items);

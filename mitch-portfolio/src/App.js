@@ -14,7 +14,7 @@ function App() {
         <Header />
         <Carousel />
         <About />
-        {/* <SpaceStation /> */}
+        <SpaceStation />
         <div id="languages-block">
             <div className="flex-container">
               <Languages />

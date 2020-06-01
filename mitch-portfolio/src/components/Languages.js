@@ -11,7 +11,8 @@ function Languages() {
 
     const fetchItems = async () => {
         const data = await fetch(
-            `https://hardcore-kepler-c0d4c5.netlify.app/languages`
+            //`https://hardcore-kepler-c0d4c5.netlify.app/languages`
+            `https://a-walk-in-the-park.netlify.app/languages`
         );
 
         items = await data.json(); // Parse into JSON format

@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './components/Header';
 import Carousel from './components/Carousel';
 import About from './components/About';
-import SpaceStation from './components/SpaceStation';
 import Languages from './components/Languages';
 import ToLearn from './components/ToLearn';
 import PrevExperience from './components/PrevExperience';
@@ -14,7 +13,6 @@ function App() {
         <Header />
         <Carousel />
         <About />
-        <SpaceStation />
         <div id="languages-block">
             <div className="flex-container">
               <Languages />

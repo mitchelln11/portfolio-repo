@@ -5,7 +5,7 @@ const StationCoords = () => {
 
     useEffect(() => {
         const fetchCoords = async () => {
-            const url = "https://api.open-notify.org/iss-now.json";
+            const url = "http://api.open-notify.org/iss-now.json";
             
             const response = await fetch(url);
             coords = await response.json();

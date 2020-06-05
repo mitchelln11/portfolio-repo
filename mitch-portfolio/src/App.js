@@ -2,8 +2,8 @@ import React from 'react';
 import Header from './components/Header';
 import Carousel from './components/Carousel';
 import About from './components/About';
-import Languages from './components/Languages';
-import ToLearn from './components/ToLearn';
+//import Languages from './components/Languages';
+//import ToLearn from './components/ToLearn';
 import PrevExperience from './components/PrevExperience';
 import Footer from './components/Footer';
 
@@ -13,12 +13,12 @@ function App() {
         <Header />
         <Carousel />
         <About />
-        <div id="languages-block">
+        {/* <div id="languages-block">
             <div className="flex-container">
               <Languages />
               <ToLearn />
             </div>
-        </div>
+        </div> */}
         
         <PrevExperience />
         <Footer />

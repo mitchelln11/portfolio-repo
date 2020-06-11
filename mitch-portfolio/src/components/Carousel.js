@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import LocalWeather from './LocalWeather';
 
 const Carousel = () => {
 
@@ -39,8 +40,10 @@ const Carousel = () => {
                 <div id="slider">
                     <div className="slide">
                         <img src={currentSlide.source} alt={currentSlide.title} title={currentSlide.title} className="slider-img" />
+                        
                         <div className="arrows">
                             <div id="arrow-left" onClick={arrowLeftClick}><i className="fas fa-arrow-alt-circle-left"></i></div>
+                            <LocalWeather />
                             <div id="arrow-right" onClick={arrowRightClick}><i className="fas fa-arrow-alt-circle-right"></i></div>
                         </div>
                     </div>

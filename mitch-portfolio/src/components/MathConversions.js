@@ -1,5 +1,10 @@
 import React from 'react';
 
-export const KelvinConvert = () => {
-    console.log("Test");
+const KelvinConvert = ({kelvin}) => {
+
+  const convertKelvinToFahrenheit = kelvin => (kelvin - 273.15) * 9/5 + 32;
+  return <li>{convertKelvinToFahrenheit(kelvin).toFixed(2)}&deg;F</li>;
+
 }
+
+export default KelvinConvert;

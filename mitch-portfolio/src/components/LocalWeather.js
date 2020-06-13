@@ -12,7 +12,10 @@ const LocalWeather = () => {
 
     const axiosGet = () => {
         axios.get(`https://api.openweathermap.org/data/2.5/weather?q=Menomonee Falls,us&APPID=${process.env.REACT_APP_WEATHER_KEY}`)
-        .then(data => setWeather(data.data));
+        .then(data => setWeather(data.data))
+        .catch((err) => {
+            console.log(err);
+        });
     }
 
     return (

@@ -22,6 +22,17 @@ const Carousel = () => {
     let [currentPosition, setCurrentPosition] = useState(0); // Initial slide index value
     let currentSlide = slides[currentPosition]; // variable index value we can reference later
     
+    // setInterval(() => {
+    //     arrowRightClick();
+    // }, 10000);
+
+    // useEffect(() => {
+    //   const interval = setInterval(() => {
+    //     arrowRightClick();
+    //   }, 1000);
+    //   return () => clearInterval(interval);
+    // }, []);
+
     const arrowRightClick = () => {
         currentPosition !== slides.length -1 ? // Check index length
         setCurrentPosition(currentPosition + 1) : setCurrentPosition(currentPosition = 0);
